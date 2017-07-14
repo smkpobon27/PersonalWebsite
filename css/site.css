@@ -1,0 +1,332 @@
+body {
+    padding-top: 78px;
+    position: relative;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+#self {
+    color: crimson;
+}
+
+.navbar-default {
+    background-color: #303030;
+    border-color: #303030;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.navbar-default .navbar-collapse {
+    border: 0;
+}
+
+.navbar-default .navbar-nav li a {
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 2em;
+    color: white;
+    padding-bottom: .2em;
+    transition-property: all;
+    transition-duration: .5s;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #7b6c63;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-collapse .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #7b6c63;
+    background-color: transparent;
+    border-bottom: 4px solid #7b6c63;
+}
+
+#brand {
+    color: whitesmoke;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+.navbar-brand:hover {
+    color: #7b6c63;
+}
+
+
+/*------------------------------Navbar ends here-----------------------------------*/
+
+.bg {
+    background-image: url("images/bg-1.png");
+    height: 700px;
+    background-repeat: no-repeat;
+}
+
+.head_data {
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+#h1_head {
+    color: white;
+    font-size: 3em;
+    font-family: sans-serif;
+}
+
+#h1_head span {
+    color: crimson;
+}
+
+#h3_head {
+    color: darkorange;
+    font-size: 2.5em;
+    font-family: sans-serif;
+}
+
+
+/*----------------------------head ends-----------------------------------------*/
+
+.about {
+    padding-top: 78px;
+    background-color: whitesmoke;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.about h1 {
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: crimson;
+}
+
+.about img {
+    margin-left: 350px;
+    height: 330px;
+    width: 400px;
+}
+
+.about h3 {
+    color: crimson;
+    font-size: 2em;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.about p {
+    color: dimgrey;
+    text-align: justify;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.about .social {
+    text-align: center;
+}
+
+.about .fa {
+    margin-right: 15px;
+}
+
+.fa-twitter-square {
+    color: dodgerblue;
+}
+
+.fa-google-plus {
+    color: red
+}
+
+
+/*------------------------------------about ends----------------------------------*/
+
+#Container .mix {
+    display: none;
+}
+
+.portfolio {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.button {
+    text-align: left;
+    margin-bottom: 35px;
+    margin-left: 50;
+}
+
+.button .btn {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.portfolio h1 {
+    margin-top: 82px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: crimson;
+}
+
+
+/*------------------portfolio ends here---------------------*/
+
+.education {
+    text-align: center;
+    padding-bottom: 190px;
+    background-color: whitesmoke;
+}
+
+.education h1 {
+    margin-top: 82px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: crimson;
+    padding-top: 40px;
+}
+
+.education .table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: royalblue;
+    color: white;
+}
+
+.education .table-striped>tbody>tr:nth-of-type(even) {
+    background-color: lightsalmon;
+}
+
+
+/*-----------------education ends here-----------------------------*/
+
+.interest span {
+    color: red;
+    font-weight: bold;
+}
+
+.interest h1 {
+    text-align: center;
+    margin-top: 82px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: crimson;
+}
+
+.interest p {
+    font-family: sans-serif;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+
+/*-----------------interest ends here-----------------------------------*/
+
+.links{
+    
+    padding-bottom: 30px;
+    background-color:  aliceblue;
+}
+.links h1 {
+    text-align: center;
+    margin-top: 82px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: crimson;
+}
+
+.links .d {
+    padding-left: 50px;
+    font-size: 1.5em;
+}
+
+.links span {
+    font-weight: bold;
+}
+
+
+/*-----------------------links ends here------------------------------*/
+
+.contact h1 {
+    text-align: center;
+    margin-top: 82px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: crimson;
+}
+
+.contact {
+    background: #f5f5f5;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #f5f5f5;
+    background-image: none;
+    border: 0px solid #ccc;
+    border-radius: 0px;
+    border-top: 2px solid #242424;
+}
+
+.tarea {
+    border-bottom: 1px solid black;
+}
+
+.btn-sub {
+    color: #242424;
+    background-color: #f5f5f5;
+    border-color: #242424;
+    border-radius: 0px;
+    padding: 6px 25px;
+}
+
+.btn-sub:hover {
+    background-color: royalblue;
+    color: white;
+    transition: background-color 1s, color 1s;
+}
+
+
+/*----------------------------contact ends here-------------------------*/
+
+.footer {
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.footer span {
+    color: crimson;
+}
+
+
+/*---------------footer ends here-------------------------------*/
+
+.portfolio img:hover {
+    -webkit-transform: rotateY(180deg);
+    /* Chrome, Safari, Opera */
+    transform: rotateY(180deg);
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    /* For Safari 3.1 to 6.0 */
+    transition: transform 1s;
+}
+
+/*--------------------portfolio image hover effect ends here---------------*/
